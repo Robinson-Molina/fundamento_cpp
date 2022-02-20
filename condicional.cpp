@@ -65,5 +65,24 @@ int main (void){
         cout <<"escribo el: "<<i<<endl;
     }
 
+    // Uso de sentencia do-while
+    int g=0; int h=6;
+    do{
+        cout<<"el número 6 es mayor que el"<<g<<endl;   
+    }while (g++<h);
+
+    //Uso de sentencia goto
+    goto jumping;
+    cout<<"aquí no llego"<<endl;    
+    jumping:
+    cout <<"aquí si"<<endl;
+    
+    //uso del while
+    i=0;
+    while (i<6){
+        cout<<"el número 6 es mayor que el "<<i++<<endl;
+    }
+
+
     return 0;
 }
